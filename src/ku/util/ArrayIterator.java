@@ -4,6 +4,8 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 /**
+ * ArrayIterator is a class that iterate elements in an array. it can print
+ * value and move next, check if there is next element left.
  * 
  * @author totsapon menkul
  *
