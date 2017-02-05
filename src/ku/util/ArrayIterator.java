@@ -37,7 +37,7 @@ public class ArrayIterator<T> implements Iterator<T> {
 	}
 
 	/**
-	 * if there is no next element left, it will throw NoSuchElementException.
+	 * remove the element where is position of cursor in an array
 	 * 
 	 * 
 	 * @throws NoSuchElementException

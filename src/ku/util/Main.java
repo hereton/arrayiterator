@@ -11,9 +11,11 @@ public class Main {
 		String[] fruit = { "apple", null, null, "banana" };
 		ArrayIterator<String> it = new ArrayIterator<>(fruit);
 		System.out.println(it.next());
+		it.remove();
+		System.out.println(fruit[0]);
 		System.out.println(it.hasNext());
 		System.out.println(it.next());
-		System.out.println(it.hasNext());
+		
 
 	}
 }
